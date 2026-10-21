@@ -1,0 +1,103 @@
+{
+    "interact_label": "Rent a Vehicle",
+    "interact_text": "[E] Rent a Vehicle",
+    "blip_name": "Rent a Car",
+    "notify": {
+        "rented": "You rented a %s. Plate: %s, duration: %s hours. Drive safe!",
+        "expiring": "Your %s rental ends in %s minutes. Don't forget to return it to the office.",
+        "expired": "Your %s (%s) rental has expired, the vehicle was recovered.",
+        "interrupted": "Your interrupted %s rental was refunded: %s",
+        "picked_up": "You picked up your %s. Plate: %s. Drive safe!"
+    },
+    "ui": {
+        "kicker": "Rent a Car",
+        "title": "Rent a Vehicle",
+        "close": "Close",
+        "back": "Back",
+        "cash": "Cash",
+        "bank": "Bank",
+        "per_hour": "/ hour",
+        "hours": "%s hours",
+        "hour_short": "h",
+        "deposit": "Deposit",
+        "vehicles": "%s vehicles",
+        "empty": "No vehicles in this category.",
+        "license_missing": "You need a driver license to rent a vehicle.",
+        "search": "Search vehicles...",
+        "no_results": "No vehicles match your search.",
+        "clear": "Clear",
+        "sort": {
+            "label": "Sort",
+            "default": "Recommended",
+            "price_asc": "Price: Low to High",
+            "price_desc": "Price: High to Low",
+            "name": "Name (A-Z)"
+        },
+        "categories": {
+            "all": "All",
+            "compact": "Compact",
+            "sedan": "Sedan",
+            "suv": "SUV",
+            "sport": "Sport",
+            "motorcycle": "Motorcycle",
+            "van": "Van"
+        },
+        "rental": {
+            "title": "Active Rental",
+            "remaining": "Time Left",
+            "plate": "Plate",
+            "return": "Return",
+            "vehicle_far": "Bring the vehicle next to the office.",
+            "vehicle_missing": "Vehicle is missing. You can respawn or return it.",
+            "returned": "%s returned. Deposit refund: %s",
+            "returned_missing": "%s rental closed, the deposit was not refunded.",
+            "respawn": "Respawn",
+            "respawned": "%s was respawned.",
+            "pickup": "Pick Up",
+            "pending": "Rented from the phone, not picked up yet."
+        },
+        "details": {
+            "duration": "Rental Duration",
+            "payment": "Payment Method",
+            "summary": "Summary",
+            "base": "Base price",
+            "discount": "Discount",
+            "rent_total": "Rent",
+            "deposit_note": "The deposit is refunded when the vehicle is returned undamaged.",
+            "total": "Total",
+            "rent": "Rent",
+            "balance": "Balance"
+        },
+        "errors": {
+            "no_money": "Not enough money in the selected account.",
+            "no_license": "You need a driver license to rent a vehicle.",
+            "max_rentals": "You already have an active rental.",
+            "too_far": "You are too far from the office.",
+            "spawn_blocked": "The vehicle spawn points are blocked, wait a moment.",
+            "spawn_failed": "Could not create the vehicle, payment refunded.",
+            "vehicle_far": "The vehicle is not close enough to the office.",
+            "no_rental": "Rental not found.",
+            "no_player": "Could not load player data.",
+            "invalid": "Something went wrong.",
+            "busy": "Your request is in progress, wait a moment.",
+            "remote_disabled": "Renting from the phone is disabled.",
+            "respawn_disabled": "Respawning vehicles is disabled.",
+            "almost_expired": "Your rental is about to expire.",
+            "vehicle_exists": "Your vehicle is already out.",
+            "cooldown": "You are going too fast, wait a few seconds.",
+            "already_picked_up": "This vehicle was already picked up.",
+            "not_picked_up": "This vehicle has not been picked up yet, pick it up at an office.",
+            "not_available_here": "This vehicle cannot be picked up at this office."
+        },
+        "pickup": {
+            "kicker": "Pickup",
+            "title": "Your rental is ready",
+            "intro": "The vehicle you rented from your phone is waiting for you at this office. Do you want to pick it up?",
+            "plate": "Plate",
+            "remaining": "Time Left",
+            "confirm": "Pick Up",
+            "close": "Close",
+            "unavailable": "This vehicle is not available at this office, pick it up at another office."
+        }
+    }
+}

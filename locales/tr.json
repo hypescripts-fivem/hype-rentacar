@@ -1,0 +1,103 @@
+{
+    "interact_label": "Araç Kirala",
+    "interact_text": "[E] Araç Kirala",
+    "blip_name": "Rent a Car",
+    "notify": {
+        "rented": "%s kiralandı. Plaka: %s, süre: %s saat. İyi yolculuklar!",
+        "expiring": "%s kiralamanın bitmesine %s dakika kaldı. Aracı ofise iade etmeyi unutma.",
+        "expired": "%s (%s) kiralama süresi doldu, araç geri alındı.",
+        "interrupted": "Yarım kalan %s kiralaman için %s iade edildi.",
+        "picked_up": "%s teslim alındı. Plaka: %s. İyi yolculuklar!"
+    },
+    "ui": {
+        "kicker": "Rent a Car",
+        "title": "Araç Kirala",
+        "close": "Kapat",
+        "back": "Geri",
+        "cash": "Nakit",
+        "bank": "Banka",
+        "per_hour": "/ saat",
+        "hours": "%s saat",
+        "hour_short": "sa",
+        "deposit": "Depozito",
+        "vehicles": "%s araç",
+        "empty": "Bu kategoride araç yok.",
+        "license_missing": "Araç kiralamak için ehliyet gerekiyor.",
+        "search": "Araç ara...",
+        "no_results": "Aramayla eşleşen araç yok.",
+        "clear": "Temizle",
+        "sort": {
+            "label": "Sırala",
+            "default": "Önerilen",
+            "price_asc": "Fiyat: Artan",
+            "price_desc": "Fiyat: Azalan",
+            "name": "İsim (A-Z)"
+        },
+        "categories": {
+            "all": "Tümü",
+            "compact": "Kompakt",
+            "sedan": "Sedan",
+            "suv": "SUV",
+            "sport": "Spor",
+            "motorcycle": "Motor",
+            "van": "Van"
+        },
+        "rental": {
+            "title": "Aktif Kiralama",
+            "remaining": "Kalan Süre",
+            "plate": "Plaka",
+            "return": "İade Et",
+            "vehicle_far": "Aracı ofisin yanına getir.",
+            "vehicle_missing": "Araç kayıp. Yeniden çıkarabilir ya da iade edebilirsin.",
+            "returned": "%s iade edildi. Depozito iadesi: %s",
+            "returned_missing": "%s kaydı kapatıldı, depozito iade edilmedi.",
+            "respawn": "Aracı Çıkar",
+            "respawned": "%s yeniden çıkarıldı.",
+            "pickup": "Teslim Al",
+            "pending": "Telefondan kiralandı, henüz teslim alınmadı."
+        },
+        "details": {
+            "duration": "Kiralama Süresi",
+            "payment": "Ödeme Yöntemi",
+            "summary": "Özet",
+            "base": "Baz fiyat",
+            "discount": "İndirim",
+            "rent_total": "Kira bedeli",
+            "deposit_note": "Depozito, araç sağlam iade edildiğinde geri ödenir.",
+            "total": "Toplam",
+            "rent": "Kirala",
+            "balance": "Bakiye"
+        },
+        "errors": {
+            "no_money": "Seçili hesapta yeterli para yok.",
+            "no_license": "Araç kiralamak için ehliyetin olmalı.",
+            "max_rentals": "Zaten aktif bir kiralaman var.",
+            "too_far": "Ofisten çok uzaktasın.",
+            "spawn_blocked": "Araç çıkış noktaları dolu, biraz bekle.",
+            "spawn_failed": "Araç oluşturulamadı, ücret iade edildi.",
+            "vehicle_far": "Araç ofise yeterince yakın değil.",
+            "no_rental": "Kiralama bulunamadı.",
+            "no_player": "Oyuncu verisi alınamadı.",
+            "invalid": "Bir hata oluştu.",
+            "busy": "İşlemin sürüyor, biraz bekle.",
+            "remote_disabled": "Telefondan kiralama kapalı.",
+            "respawn_disabled": "Aracı yeniden çıkarma kapalı.",
+            "almost_expired": "Kiralama süren bitmek üzere.",
+            "vehicle_exists": "Aracın zaten dışarıda.",
+            "cooldown": "Çok hızlı işlem yapıyorsun, birkaç saniye bekle.",
+            "already_picked_up": "Bu araç zaten teslim alındı.",
+            "not_picked_up": "Bu araç henüz teslim alınmadı, bir ofisten teslim al.",
+            "not_available_here": "Bu araç bu ofisten teslim alınamaz."
+        },
+        "pickup": {
+            "kicker": "Teslim Alma",
+            "title": "Kiralık aracın hazır",
+            "intro": "Telefondan kiraladığın araç bu ofiste seni bekliyor. Teslim almak istiyor musun?",
+            "plate": "Plaka",
+            "remaining": "Kalan Süre",
+            "confirm": "Teslim Al",
+            "close": "Kapat",
+            "unavailable": "Bu araç bu ofiste yok, başka bir ofisten teslim al."
+        }
+    }
+}
